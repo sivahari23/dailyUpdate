@@ -1,0 +1,19 @@
+*{
+    padding: 3px;
+}
+.navbar{
+    background-color: darkblue;
+    text-align: center;
+    padding: 25px;
+}
+.navbar a{
+    color: white;
+    padding: 25px;
+    text-decoration: none;
+}
+a :hover{
+    border: 10px;
+    border-radius: 25px;
+    background-color: white;
+    color: darkblue;
+}

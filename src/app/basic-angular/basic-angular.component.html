@@ -1,0 +1,36 @@
+<div class="body">
+  
+
+    <h3>{{subTittle1 | uppercase }}</h3>
+ <a href="https://medium.com/siam-vit/how-an-angular-app-work-behind-the-scenes-angular-flow-dcc4d1df27bd">click On this for details info</a>
+
+    <h3>{{subTittle2 | uppercase}}</h3>
+    <ul>
+      <li *ngFor="let component of components">
+       {{component.SiNo}}
+       {{component.detail}}
+      </li>
+    </ul>
+    <h3>{{subTittle3 |uppercase }}</h3>
+    
+    <p>
+    What Angular Decorators Do. <br> The whole purpose of Angular decorators is to store metadata about a class, method,
+       or property. When you configure a component, you are providing a metadata for that class that tells Angular that 
+       you have a component, and that component has a specific configuration.
+    </p>
+    <div *ngFor="let   decorators of  decorator ">
+      <strong>{{decorators.name}} </strong>
+    {{decorators.detail}}
+    </div>
+   <h3> {{subTittle4}} </h3>
+    <p>Data Binding is the mechanism that binds the applications UI or User Interface to the models. <br>
+        In Angular, Data Binding defines the interaction between the components and the DOM. </p>
+        <div *ngFor="let dataBindings of dataBinding">
+ <strong>{{dataBindings.name }}</strong>  <br>
+{{dataBindings.details}} <br> <br>
+<span style="background-color: aquamarine;"> {{dataBindings.example}} </span> 
+
+        </div>
+        <button class="btn btn-success" >click</button>
+       
+    </div>
