@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { AboutComponent } from './about/about.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { BasicAngularComponent } from './basic-angular/basic-angular.component';
+import { MyIfDirective } from './my-if.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
     AboutComponent,
     ContactUsComponent,
-    BasicAngularComponent
+    BasicAngularComponent,
+    MyIfDirective
   ],
   imports: [
     BrowserModule,
